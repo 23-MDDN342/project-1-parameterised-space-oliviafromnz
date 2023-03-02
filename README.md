@@ -1,13 +1,12 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10326179&assignment_repo_type=AssignmentRepo)
 ### 2023 MDDN342 Project 1: Parameterised Space
-EXAMPLE README 
 
-My design is inspired by fireworks and flowers. I want it to be full of changes, so that every frame can have a fresh feeling.
+I am currently in Italy, Roma. 
+I took inspiration from the The Sancta Sanctorum which I visited earlier this week on a random stroll. The Sanata Sanctorum is a Roman Catholic chapel of the Lateran Palace in Rome. It was the original private chapel of the papacy before it moved to Avignon, and later to the Vatican Palace. 
 
-In terms of concrete performance, I draw different geometric figures, let them spread out, and overlay their number at the same time, through the time difference to make the whole dynamic background become enthusiastic.
+Although, I havent looked too much into the history of this chapel, the roofs like other places in Roma are absolutley breathtaking. I thought why wouldnt anyone want this as a background in a boring old work zoom meeting? 
 
-In terms of color, I made different shapes correspond to different colors, and changed the parameters so that they were different every time they appeared, so that there would be differences between different loops.
+My idea is to use the front scrolling js to help me immitate the infite pictures on the ceiling shown in the sketch.jpg. The hiope is to have a grand atmosphere, as if the ceiling is talking to you with bright colours. Obviously my skillset is limited rtegarding creating all the beutiful imagery, but I would like to someway immitate the colour pallete or message of each squasre somehow in the final product. 
 
-In the initial design, I only added the circle. Through the color change of the circle and the superposition of the movement track, although it has a good effect, I think it is too monotonous.
 
-In the later stages, I added a lot of geometric shapes, which made the color and pattern more variable.
+
