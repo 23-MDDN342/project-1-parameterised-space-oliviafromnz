@@ -55,20 +55,20 @@ function draw_one_frame(cur_frac) {
     1.10 * width
   ]
 
-  if(debugView) {
-    stroke(255, 0, 0);
-    strokeWeight(height/100);
-    noFill();
-    for(let i=0; i<grid_points2.length; i++) {
-      rect(grid_points2[i], b2_y, b2_size, 2*b2_size);
-    }    
-  }
+  // if(debugView) {
+  //   stroke(255, 0, 0);
+  //   strokeWeight(height/100);
+  //   noFill();
+  //   for(let i=0; i<grid_points2.length; i++) {
+  //     rect(grid_points2[i], b2_y, b2_size, 2*b2_size);
+  //   }    
+  // }
 
-  fill(100, 100, 100);
-  noStroke();
-  for(let i=0; i<grid_points2.length-1; i++) {
-    let cur_x_pos = map(cur_frac, 0, 1, grid_points2[i], grid_points2[i+1])
-    rect(cur_x_pos, b2_y, b2_size, 2*b2_size);
-  }
+  // fill(100, 100, 100);
+  // noStroke();
+  // for(let i=0; i<grid_points2.length-1; i++) {
+  //   let cur_x_pos = map(cur_frac, 0, 1, grid_points2[i], grid_points2[i+1])
+  //   rect(cur_x_pos, b2_y, b2_size, 2*b2_size);
+  // }
 }
 
