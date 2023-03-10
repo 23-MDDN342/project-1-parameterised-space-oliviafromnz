@@ -3,17 +3,16 @@
 
 README
 
-Edited and played with maps - went along with Tuesdays lecture. 
+Added extra panneling and framing the window. Will start to think how i want the roof to move, maybe a series of arcs dispersing from the centre window??
 
-Then went into frontscroll.js and commented to understand the elements being drawn and manipulated. 
 
-I then planned out the basic shapes I wanted to create for the background and started to get back into the groove of drawing these in relation to height and width, which I am still in the process of doing. 
+Thoughts: 
 
-So far we have:
+The wall "paintings, could immitate some of what Pheobe demonstrated with the lots and lots of dots (like pop art) in a grid and then it changes colour in colour lerp but specific colours? - use noise function?? 
 
-Two opposing walls joined by a centre semi circle window, with an arched ceiling for the hallway. The idea is to use the front scrolling method to draw arcs coming from behind the window to the back of the ceiling to front. The celing will then be maped in a way to emit different colours through the noise function.
 
-The pictures on the wall will be using the noise function too with lots of tiny dots, slightly changing to showcase the livley paintings displayed down the chapel's hallway. 
+Also could have window sky move in background to give atmosphere, but then do I have to add like shading? Could it make it too messy or is it more of a flat vector background?? Or do I commit to proper 3d - do I have time?? 
+
 
 
 
