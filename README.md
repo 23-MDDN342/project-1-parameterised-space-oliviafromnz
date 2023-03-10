@@ -1,13 +1,18 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10326179&assignment_repo_type=AssignmentRepo)
 ### 2023 MDDN342 Project 1: Parameterised Space
-EXAMPLE README 
 
-My design is inspired by fireworks and flowers. I want it to be full of changes, so that every frame can have a fresh feeling.
+README
 
-In terms of concrete performance, I draw different geometric figures, let them spread out, and overlay their number at the same time, through the time difference to make the whole dynamic background become enthusiastic.
+Added extra panneling and framing the window. Will start to think how i want the roof to move, maybe a series of arcs dispersing from the centre window??
 
-In terms of color, I made different shapes correspond to different colors, and changed the parameters so that they were different every time they appeared, so that there would be differences between different loops.
 
-In the initial design, I only added the circle. Through the color change of the circle and the superposition of the movement track, although it has a good effect, I think it is too monotonous.
+Thoughts: 
 
-In the later stages, I added a lot of geometric shapes, which made the color and pattern more variable.
+The wall "paintings, could immitate some of what Pheobe demonstrated with the lots and lots of dots (like pop art) in a grid and then it changes colour in colour lerp but specific colours? - use noise function?? 
+
+
+Also could have window sky move in background to give atmosphere, but then do I have to add like shading? Could it make it too messy or is it more of a flat vector background?? Or do I commit to proper 3d - do I have time?? 
+
+
+
+

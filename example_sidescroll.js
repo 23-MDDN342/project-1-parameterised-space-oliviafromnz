@@ -70,5 +70,5 @@ function draw_one_frame(cur_frac) {
     let cur_x_pos = map(cur_frac, 0, 1, grid_points2[i], grid_points2[i+1])
     rect(cur_x_pos, b2_y, b2_size, 2*b2_size);
   }
-}
 
+}
