@@ -3,7 +3,11 @@
 
 README
 
-Moving the arcs upwards - have an issue with the colourlerp, only grabbbing two colours from array and then can only be seen in debug vciew zoomed out. Need to work on this. 
+Have parked the arcs - not sure how to do this will play with the colour lerping soon. Decided to focus on the paintings and played with the grid example Phoebe showed us. Used this and then with the help of chatGPT I found a way to constrain the circle grid to the points of the rect. 
+
+Still playing around with colours... 
+
+Also changed the window colour to change blue hues however the looping on this needs adjusting to make it more smooth. 
 
 
 
