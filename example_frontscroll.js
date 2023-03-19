@@ -38,13 +38,13 @@ let moveXmap, moveYMap;
 
 
 ///////////// arcs repeating on ceiling colour series
-  let arcColor = [
+  let arcColor = [ // consider the order of these, 
     color("#A6785D"),
     color("#F2B885"),
     color("#A65D03"),
     color("#F2C46D"),
     color("#93AEBF"),
-    color("#93AEBF") // dark greeny blue
+    color("#93AEBF") // dark greeny blue //
   ]
 
 ///////////// where ellipses spawn
@@ -67,9 +67,10 @@ let moveXmap, moveYMap;
     strokeWeight(1);
 stroke(0);
 for (let i = 0; i < circ_points.length - 1; i++) {
-  let cur_grid_line = map(cur_frac, 1, 0, circ_points[i], circ_points[i + 1]);
-  let value = map(cur_grid_line, 0, height, 0, 1);
-  let arcColor_change = lerpColor(arcColor[0], arcColor[3], value);
+  let cur_grid_line = map(cur_frac, 0, 1, circ_points[i], circ_points[i - 1]);
+  console.log(cur_grid_line)
+  let value = map(cur_grid_line, 0, height, 0, 1); // this is just remapping something to equal cur frac again ... I think
+  let arcColor_change = lerpColor(arcColor[i%arcColor.length], arcColor[(i+1)%arcColor.length], cur_frac); // %arcColor.length means you will always have a number that fits the array length of your colours. 
   fill(arcColor_change);
   ellipse(width / 2, cur_grid_line, windowXsize * 2, windowYsize * 4.3);
 }
@@ -79,6 +80,7 @@ for (let i = 0; i < circ_points.length - 1; i++) {
       stroke(255, 0, 0);
       for(let i=0; i<circ_points.length; i++) {
         ellipse(width/2, circ_points[i], width, circ_points[i]);
+      // 
       }
     } 
 
@@ -86,9 +88,19 @@ for (let i = 0; i < circ_points.length - 1; i++) {
   //////////// window
   
   noStroke()
-  let val = map(cur_frac, -1, 1, 0, 1)
-  let window_change = lerpColor(window_color1, window_color2, val);
-  fill(window_change);
+
+
+ // let val = map(cur_frac, -1, 1, 0, 1) //CurFrac already goes between 0 and 1 so I made val a little smarter 
+ let val;
+ if (cur_frac <= 0.5){
+  val = map(cur_frac, 0 , 0.5, 0, 1) // for the first half of the animation, have the val get bigger 
+}
+else{
+  val = map(cur_frac, 0.5,1, 1,0) // for the second half of the animation have the val get smaller
+} // this is a system you may want to implement for your colour changes above in the code. 
+
+ let window_change = lerpColor(window_color1, window_color2, val);
+  fill(window_change); 
 
   //fill(window_color); //light blue
 
