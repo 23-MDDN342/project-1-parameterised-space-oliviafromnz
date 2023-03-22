@@ -3,11 +3,14 @@
 
 README
 
-Have parked the arcs - not sure how to do this will play with the colour lerping soon. Decided to focus on the paintings and played with the grid example Phoebe showed us. Used this and then with the help of chatGPT I found a way to constrain the circle grid to the points of the rect. 
+This backgorund is called: Roman Chapel Awakes (Based on the Holy Stairs)
 
-Still playing around with colours... 
+The Concept:
+As the night approaches, the tourists of the roman chapels slowly exit the building, leaving the beautiful intricate paintings full of faces and animals all alone. The hallways are empty until the church darkens. Then the toy story effect starts, the ceiling moulding glistens gold and the paintings start to talk to each other. The ceiling turns into a full on moving playground and the chapel is alive. 
 
-Also changed the window colour to change blue hues however the looping on this needs adjusting to make it more smooth. 
+This ambient, grand, luxurious yet playfully illustrated chapel hallway background gives zoom users a fun atmosphere to conduct any meeting or catch up. As you sit in the centre, colours fly above you and gold glistens on either side of you. 
+
+
 
 
 
